@@ -1,0 +1,19 @@
+banlist = ['<']
+purify = []
+item = edit[0].split()
+print item
+test = item[0]
+print test
+for i in test:
+    purify.append(i)
+purecopy = list(purify)
+print purify
+print purecopy
+for i in range(len(purify)):
+    if purify[i] in banlist:
+        print purecopy[i]
+        for e in range(4):
+            purecopy.remove(purify[i+e])
+
+print purify
+print purecopy

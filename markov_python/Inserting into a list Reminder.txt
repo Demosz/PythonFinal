@@ -1,0 +1,8 @@
+test = ['list1', 'list2', 'list3', 'list4']
+for i in range(len(edit)):
+    edit[i] = edit[i].split()
+print edit[0], edit[1]
+for i in range(len(edit[0])):
+    print edit[0][i]
+    test.insert(i, edit[0][i])
+print test
